@@ -46,4 +46,32 @@ h4 {
 	margin-left: 50px;
 	line-height: 0;
 	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.popover {
+	display: none;
+	background-color: #FAFAFA;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.popover li {
+	margin: 8px 0 8px 50px;
+}
+
+.popover  li h2 {
+	margin: 15px 0 0 30px;
+}
+
+.locations:hover .popover {
+	display: block;
+}
+
+.amenities:hover .popover {
+	display: block;
 }
