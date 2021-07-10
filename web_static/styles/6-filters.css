@@ -58,6 +58,8 @@ h4 {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	position: sticky;
+	z-index: 1;
 }
 
 .popover li {
@@ -65,7 +67,7 @@ h4 {
 }
 
 .popover  li h2 {
-	margin: 15px 0 0 30px;
+	margin: 15px 0 0 -20px;
 }
 
 .locations:hover .popover {
